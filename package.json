@@ -1,0 +1,47 @@
+{
+  "name": "@hspotted/reactjs",
+  "author": {
+    "name": "Henrique Fernandes",
+    "url": "https://github.com/hspotted"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --watch=false",
+    "test:ui": "vitest --ui",
+    "test:unit": "vitest unit --watch=false",
+    "test:integration": "vitest integration --watch=false",
+    "test:watch": "vitest unit --watch=true",
+    "test:coverage": "vitest run --watch=false --coverage"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/node": "^18.11.19",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.33.0",
+    "happy-dom": "^8.2.6",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vitest": "^0.28.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
